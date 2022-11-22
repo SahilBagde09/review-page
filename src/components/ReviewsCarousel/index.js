@@ -38,6 +38,7 @@ class ReviewsCarousel extends Component {
           <img src={imgUrl} alt={username} className="user-image" />
           <div className="buttons-control-container">
             <button
+              testid="leftArrow"
               type="button"
               onClick={this.onClickLeftButton}
               className="button-element"
@@ -50,6 +51,7 @@ class ReviewsCarousel extends Component {
             </button>
             <p className="user-name">{username}</p>
             <button
+              testid="rightArrow"
               type="button"
               className="button-element"
               onClick={() => {
